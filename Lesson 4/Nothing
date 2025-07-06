@@ -1,0 +1,9 @@
+i = int(input("Enter a number: "))
+if(i > 15):
+    print("i is bigger than 15")
+    print("i'm in if block")
+else:
+    print("i is smaller than 15")
+    print("i'm in the else block")
+print("i'm outside the if-else block wandering around")
+print("Thanks for using")
