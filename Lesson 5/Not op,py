@@ -1,0 +1,12 @@
+a = 10
+b = 12
+c = 12
+
+print(a != b)# True
+print(b != c)# False
+
+a = "python"
+b = "roblox"
+
+if a != b:
+    print(a, "and", b, "are not equal")
