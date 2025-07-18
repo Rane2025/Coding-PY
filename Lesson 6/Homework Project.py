@@ -3,7 +3,7 @@ print("Hello, to Mewtue's Car Finder and I will help you buy a brand new car fro
 print("Enter vote for the car brand")
 print("Only could be used in Kenya.")
 
-Cherry = int( input("Cherry is a really futuristic affordable car brand,and it is better when you compare it with BMW.Please enter from 1 to 100000: 0 "))
+Cherry = int( input("Cherry is a really futuristic affordable car brand,and it is better when you compare it with BMW.Please enter from 1 to 100000: "))
 Cherry_vote_left = 100000 - Cherry
 Chevlote = int(input(f"Chevlote is not that good and comfortable as Cherry, but faster than Cherry. You have {Cherry_vote_left} votes left. Please enter from that many votes left: "))
 Chevlote_vote_left = Cherry_vote_left - Chevlote
@@ -49,3 +49,6 @@ print("This project for usefull information only and not a game, so please do no
 print("Please do not remix this project without the permission of the creater, Rane2025")
 print("If you are caught breaking the rules, you will be in trouble. ")
 print("Thank's for using Mewtue's Car Finder, have a nice day/night!")
+
+with open("output.txt", "w") as file:
+    file.write("This is the content you want to save.")
