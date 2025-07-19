@@ -43,12 +43,28 @@ else:
 
 print("Thank you for using Mewtue's car dealer, have a nice day!")
 
-print("Mewtue's Car Finder is a project by Rane2025, and it is not affiliated with any car brand. All right reserved")
+# Extra Variables that are used in the project
+
+google_maps = input("Did you ever use google maps?[Yes/No]")
+
+if google_maps == 'Y' or google_maps == 'Yes' or google_maps == 'ya' or google_maps == 'Ya':
+    google_maps2 = input("Do you like it?")
+    if google_maps2 == 'Y' or google_maps2 == 'Yes' or google_maps2 == 'ya' or google_maps2 == 'Ya':
+        print("Give feedback to google [Click the website!!] : https://www.google.com/tools/feedback/intl/en/learnmore.html. These are the steps give by google [a guide] to help you fill up your feedback form.")
+    else:
+        print("Not usefull to you")
+else:
+    print("Never mind")
+
+# Now the end of most of the main part but I did not forget about the rules!
+
+print("\nMewtue's Car Finder is a project by Rane2025, and it is not affiliated with any car brand. All right reserved")
 print("The creater is not from Kenaya and and all credits are given to the car brands mentioned above and https://www.google.com/maps. ")
 print("This project for usefull information only and not a game, so please do not 'prank call' or do illegal activities with the contact numbers provided.")
 print("Please do not remix this project without the permission of the creater, Rane2025")
 print("If you are caught breaking the rules, you will be in trouble. ")
 print("Thank's for using Mewtue's Car Finder, have a nice day/night!")
 
-with open("output.txt", "w") as file:
-    file.write("This is the content you want to save.")
+print("Please give a star if liked the hard work. ")
+
+print("Mewtue's car finder Kenya[The first one!]")
