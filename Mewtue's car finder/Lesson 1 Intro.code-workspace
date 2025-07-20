@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"name": "Lesson 1 Intro",
+			"path": "../Lesson 1 Intro"
+		},
+		{
+			"name": "Lesson 2 Data Types",
+			"path": "../Lesson 2 Data Types"
+		},
+		{
+			"name": "Lesson 3",
+			"path": "../Lesson 3"
+		},
+		{
+			"name": "Lesson 4",
+			"path": "../Lesson 4"
+		},
+		{
+			"name": "Lesson 5",
+			"path": "../Lesson 5"
+		},
+		{
+			"name": "Lesson 6",
+			"path": "../Lesson 6"
+		},
+		{
+			"name": "Lesson 7",
+			"path": "../Lesson 7"
+		},
+		{
+			"name": "Lesson 8",
+			"path": "../Lesson 8"
+		},
+		{
+			"name": "Lesson 9",
+			"path": "../Lesson 9"
+		},
+		{
+			"name": "Lesson 10",
+			"path": "../Lesson 10"
+		},
+		{
+			"name": "Mewtue's car finder",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

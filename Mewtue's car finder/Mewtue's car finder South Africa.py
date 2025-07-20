@@ -1,14 +1,16 @@
-# Hey there. I am Mewtue
-print("Hello, to Mewtue's Car Finder and I will help you buy a brand new car from the current Cherry, Chevlote, Ford, Honda, Hyundai, Kia, BMW models.")
-print("Enter vote for the car brand")
-print("Only could be used in Kenya.")
-
-Cherry = int( input(f"Cherry is a really futuristic affordable car brand,and it is better when you compare it with BMW.Please enter from 1 to 100000: "))
-Cherry_vote_left = 100000 - Cherry
-Chevlote = int(input(f"Chevlote is not that good and comfortable as Cherry, but faster than Cherry. You have {Cherry_vote_left} votes left. Please enter from that many votes left: "))
-Chevlote_vote_left = Cherry_vote_left - Chevlote
-Ford = int(input(f"Ford is a really nice HUV brand and is good for traveling. You have {Chevlote_vote_left} votes left. Please enter from that many votes left: "))
-Ford_vote_left = Chevlote_vote_left - Ford
+print("If you didn't know that 'Homework Project.py', is Mewtue's car finder Kenya")
+print("Welcome to Mewtue's car finder South Africa!")
+print("Zulu: Siyakwamukela kumtholi wezimoto wakwaMewtue, eNingizimu Afrika!")
+print("Afrikaans: Welkom by Mewtue se motorsoeker Suid-Afrika!")
+print("Could only be used in South Africa")
+print("The best of all time!")
+print("Have seven car options. Chery, Chevrolet, Ford, Honda, Hyundai, Kia, BMW")
+Chery = int( input("Chery is a really futuristic affordable car brand,and it is better when you compare it with BMW.Please enter from 1 to 100000: "))
+Chery_vote_left = 100000 - Chery
+Chevrolet = int(input(f"Chevrolet is not that good and comfortable as Chery, but faster than Chery. You have {Chery_vote_left} votes left. Please enter from that many votes left: "))
+Chevrolet_vote_left = Chery_vote_left - Chevrolet
+Ford = int(input(f"Ford is a really nice HUV brand and is good for traveling. You have {Chevrolet_vote_left} votes left. Please enter from that many votes left: "))
+Ford_vote_left = Chevrolet_vote_left - Ford
 Honda = int(input(f"Honda is not a really nice brand but nice for riding around cities and towns it is very cheap. You have {Ford_vote_left} votes left. Please enter from that many votes left: "))
 Honda_votes_left = Ford_vote_left - Honda
 Hyundai = int(input(f"Hyundai is a really nice car brand and is recommended for the most cheapest luxury car. You have {Honda_votes_left} votes left. Please enter from that many votes left:  "))
@@ -16,26 +18,25 @@ Hyundai_votes_left = Honda_votes_left - Hyundai
 Kia = int(input(f"Kia is a really nice car brand and is recommended for the most chepest luxury car. You have {Hyundai_votes_left} votes left. please enter from that many votes left: "))
 Kia_votes_left = Hyundai_votes_left - Kia
 BMW = int(input(f"BMW is a really nice car brand and is recommend for the most expensive luxury car. You have {Kia_votes_left} votes left. Please enter fronm that many votes left: "))
-
-if Cherry > Chevlote and Cherry > Ford and Cherry > Honda and Cherry > Hyundai and Cherry > Kia and Cherry > BMW:
+if Chery > Ford and Chery > Honda and Chery > Hyundai and Chery > Kia and Chery > BMW:
     print("You have voted Cherry the most.")
     print("Kenya, Nairobi, Contact number: +25420652398")
-elif Chevlote > Cherry and Chevlote > Ford and Chevlote > Honda and Chevlote > Hyundai and Chevlote > Kia and Chevlote > BMW:
+elif Chevrolet > Chery and Chevrolet > Ford and Chevrolet > Honda and Chevrolet > Hyundai and Chevrolet > Kia and Chevrolet > BMW:
     print("You have voted Chevlote the most.")
     print("Kenya, Nairobi, Contact number: +254707055600")
-elif Ford > Cherry and Ford > Chevlote and Ford > Honda and Ford > Hyundai and Ford > Kia and Ford > BMW:
+elif Ford > Chery and Ford > Chevrolet and Ford > Honda and Ford > Hyundai and Ford > Kia and Ford > BMW:
     print("You have voted Ford the most.")
     print("No Phone number available, website: https://www.ford.co.ke/")
-elif Honda > Cherry and Honda > Chevlote and Honda > Ford and Honda > Hyundai and Honda > Kia and Honda > BMW:
+elif Honda > Chery and Honda > Chevrolet and Honda > Ford and Honda > Hyundai and Honda > Kia and Honda > BMW:
     print("You have voted Honda the most.")
     print("Kenya, Nairobi, Contact number: +254718111111")
-elif Hyundai > Cherry and Hyundai > Chevlote and Hyundai > Ford and Hyundai > Honda and Hyundai > Kia and Hyundai > BMW:
+elif Hyundai > Chery and Hyundai > Chevrolet and Hyundai > Ford and Hyundai > Honda and Hyundai > Kia and Hyundai > BMW:
     print("You Have voted Hyundai the most.")
     print("Kenya, Nairobi, Contact number: +254110094309")
-elif Kia > Cherry and Kia > Chevlote and Kia > Ford and Kia > Honda and Kia > Hyundai and Kia > BMW:
+elif Kia > Chery and Kia > Chevrolet and Kia > Ford and Kia > Honda and Kia > Hyundai and Kia > BMW:
     print("You have voted Kia the most.")
     print("No Phone number available, website: https://www.kia.co.ke/")
-elif BMW > Cherry and BMW > Chevlote and BMW > Ford and BMW > Honda and BMW > Hyundai and BMW > Kia:
+elif BMW > Chery and BMW > Chevrolet and BMW > Ford and BMW > Honda and BMW > Hyundai and BMW > Kia:
     print("You have voted BMW the most.")
     print("No Phone number avalable, website: https://www.bmw.co.ke/en/index.html")
 else:
