@@ -68,3 +68,5 @@ print("Thank's for using Mewtue's Car Finder, have a nice day/night!")
 print("Please give a star if liked the hard work. ")
 
 print("Mewtue's car finder Kenya[The first one!]")
+print("Mewtue's Car finder V.1")
+print("Have fun in Kenya")
