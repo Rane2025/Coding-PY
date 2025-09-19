@@ -78,6 +78,9 @@ def game():
             turn = 'O'
         else:
             turn = 'X'
+    restart1 = int(input("Do you like the game?(give 1 to 5)"))
+    if restart1 == 5 or restart1 == 4 or restart1 == 3 or restart1 == 2 or restart1 == 1 or restart1 == 0:
+        print("Thank you so much for rating us")
     restart = input("Do you want to play Again?(y/n)")
     
     if restart == "y" or restart == "Y":  
