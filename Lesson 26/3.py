@@ -17,4 +17,4 @@ buy = input("Do you want to buy a parrot?(y/n)")
 if buy == "y":
     price = int(input("Enter the price your price to buy the parrot: "))
     if price >= 1000:
-        parrot = input("Which ")
+        parrot = input("Which")
