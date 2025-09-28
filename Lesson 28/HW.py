@@ -7,7 +7,7 @@ class Buses():
             self.Max_speed = Milage
 
 class Taxi(Buses):
-    def Bus_info(self, speed):
+    def Bus_info(self):
         speed = int(input("Choose the taxi speed: (max 500)"))
         self.Max_speed = 500
         if speed > self.Max_speed:
@@ -17,7 +17,7 @@ class Taxi(Buses):
         print("$" + str(speed))
 
 Sans_car_taxi = Taxi(2.5, 500, 20)
-Sans_car_taxi.Bus_info(500)
+Sans_car_taxi.Bus_info()
 class Truck(Buses):
     def Truck_info(self, weight):
         weight = int(input("Enter the weight of the truck: (max 10000)"))
