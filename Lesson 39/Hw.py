@@ -29,7 +29,7 @@ def display_details():
     print(f"Name: {name}\nEmail: {email}\nPassword: {password}")
 
 # Textbox to display message
-textbox = Text(bg="#BEBEBE", fg = "black")
+textbox = Text(bg="#EC2222", fg = "black")
 
 # Add Button, when pressed, message will be displayed
 btn = Button(master=frame, text="Create Account", bg="#3f86ff", font=("Arial", 16), command=display_details)
