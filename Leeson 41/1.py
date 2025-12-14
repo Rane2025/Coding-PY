@@ -44,3 +44,6 @@ btn_open.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
 btn_save.grid(row=1, column=0, sticky="ew", padx=5, pady=5)
 fr_buttons.grid(row=0, column=0, sticky="ns")
 text_edit.grid(row=0, column=1, sticky="nsew")
+
+# Starting the main event loop
+window.mainloop()
