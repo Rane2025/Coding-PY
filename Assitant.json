@@ -1,0 +1,10 @@
+{
+  "name": "C++ Debug (x64)",
+  "type": "cppdbg",
+  "request": "launch",
+  "program": "${workspaceFolder}/path/to/your/x64/executable.exe",
+  "targetArchitecture": "x64",
+  "stopAtEntry": true,
+  "cwd": "${workspaceFolder}",
+  "MIMode": "gdb"
+}

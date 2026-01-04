@@ -1,0 +1,55 @@
+import tkinter as tk
+from tkinter import ttk, messagebox
+
+class RestaurantOrderApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Restaurant Order System")
+
+        self.menu_items = {
+            "Burger": 5.99,
+            "Pizza": 8.99,
+            "Salad": 4.99,
+            "Soda": 1.99,
+            "Dessert": 3.49,
+            "Spaghetti": 7.99,
+            "Meatballs": 6.99,
+            "Ice Cream": 2.99,
+            "Coffee": 2.49,
+            "Tea": 1.49,
+            "Fries": 2.99,
+            "Chicken Wings": 6.49,
+            "Sandwich": 5.49,
+            "Soup": 3.99,
+            "Steak": 12.99
+
+        }
+        self.exchange_rate = 1.0
+
+        self.setup_background(root)
+
+        frame = ttk.Frame(root)
+        frame.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
+        ttk.Label(frame, text="Restaurant Order Management").grid(row=0, column=0, columnspan=2)
+        self.menu_label = {}
+        self.menu_quantites = {}
+
+        for idx, (item, price) in enumerate(self.menu_items.items(), start=1):
+            ttk.Label(frame, text=f"{item} (${price:.2f})").grid(row=idx, column=0, sticky=tk.W)
+            qty_var = tk.IntVar(value=0)
+            self.menu_quantites[item] = qty_var
+            qty_spinbox = ttk.Spinbox(frame, from_=0, to=20, textvariable=qty_var, width=5)
+            qty_spinbox.grid(row=idx, column=1)
+
+            quantity_entry = ttk.Entry(frame, width=5)
+            quantity_entry.grid(row=idx, column=2)
+            self.menu_quantites[item] = quantity_entry
+
+        self.currency_var = tk.StringVar(value="ZAR")
+        ttk.Label(
+            frame,
+            text="Currency:"
+            font=("Arial", 12)
+        ).grid(row=len(self.menu_items) + 1, column=0, padx = 10, pady=5)
+        
+
